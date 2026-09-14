@@ -1,0 +1,122 @@
+/* Загальні стилі сторінки */
+body {
+    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+    color: #e2e8f0;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Головний заголовок */
+#page-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #60a5fa;
+    margin-bottom: 5px;
+}
+
+/* Вступний текст */
+.intro {
+    text-align: center;
+    font-size: 20px;
+    color: #94a3b8;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+/* Заголовки розділів */
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f8fafc;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-left: 4px solid #8b5cf6;
+    padding-left: 12px;
+}
+
+/* Заголовки третього рівня */
+h3 {
+    color: #60a5fa;
+    font-size: 21px;
+}
+
+/* Виділений текст */
+strong {
+    color: #fbbf24;
+}
+
+/* Курсивний текст */
+em {
+    color: #a78bfa;
+    font-weight: bold;
+}
+
+/* Посилання */
+a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Посилання при наведенні */
+a:hover {
+    color: #c084fc;
+    text-decoration: underline;
+}
+
+/* Списки */
+ul {
+    list-style-type: square;
+    background-color: #1e293b;
+    padding: 20px 35px;
+    border-radius: 12px;
+}
+
+/* Нумерований список */
+ol {
+    list-style-type: decimal;
+    background-color: #1e293b;
+    padding: 20px 35px;
+    border-radius: 12px;
+}
+
+/* Пункти списку */
+li {
+    margin-bottom: 8px;
+}
+
+/* Зображення */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 15px;
+}
+
+/* Таблиця */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Заголовки таблиці */
+th {
+    background-color: #334155;
+    color: #f8fafc;
+    padding: 12px;
+}
+
+/* Комірки таблиці */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #475569;
+}
